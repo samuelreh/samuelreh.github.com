@@ -1,0 +1,29 @@
+body {
+  color: #333;
+  font-family: 'Open Sans',sans-serif;
+  padding: 5px 30px;
+  padding-top: 5px;
+  max-width: 700px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+a {
+  border-bottom: 1px solid #bbb;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+  border-color: #2a6496;
+}
+
+footer {
+  margin: 30px 0;
+  background: #fafafa;
+  padding: 5px;
+}

@@ -1,67 +1,39 @@
-<!doctype html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>SR</title>
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
-  <link href='http://fonts.googleapis.com/css?family=Muli:300' rel='stylesheet' type='text/css'>
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta name="robots" content="all" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta http-equiv="imagetoolbar" content="false" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->	
-	<style>
-		* { padding: 0; margin: 0; }
-		body { background-color: #333; font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; }
-		p {  font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-    h1 { font-size: 50px; font-weight:200; margin-bottom: 16px; }
-		a { color: #fff; font-weight: bold; text-decoration: none; }
-		a:hover { color: #990000; }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
-		}
-    .icon {
-      margin-right: 10px;
-      background: rgba(255, 255, 255, .7);
-      border: 0px solid;
-      border-radius: 13px;
-      padding: 8px;
-    }
-	</style>
-</head>	
-    
-<body>
-
-<div id="monogram"> </div>
-
-<div id="about">
-  <h1>Samuel Reh</h1>
-  <a href="http://ca.linkedin.com/in/samreh/"><img src="png/linkedin.png" class="icon" /></a>
-  <a href="https://github.com/samuelreh"><img src="png/github_alt.png" class="icon"/></a>
-  <!--<a href="https://twitter.com/samuelreh"><img src="png/twitter.png" class="icon"/></a>-->
-  <!--<a href=""><img src="a-life-in-pixels-social-icons/flickr.png" class="icon"/></a>-->
-</div>
-
-<!--include jquery & backstretch-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-$(function(){
-     $(window).resize(function(){
-         if($(this).width() >= 767){
-             $.backstretch("sr_bg.png", {speed: 150});
-         }
-      })
-      .resize();//trigger resize on page load
-});
-</script>
-
-</body>	
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Samuel Reh</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>I'm Sam Reh.</h1>
+    <h2>I build software. Recently, I've worked on:</h2>
+    <h3><a href="http://www.attributionapp.com">Attribution</a></h3>
+    <p>
+      A marketing application allowing customers to track online ad spend and cost to aquire across multiple platforms.
+    </p>
+    <h3><a href="http://www.medeo.ca">Medeo</a></h3>
+    <p>
+      A virtual heath clinic providing medical practitioners the ability to provide care to patients remotley.
+    </p>
+    <h3><a href="https://www.postcardsfromtheplane.com">Postcards From the Plane</a></h3>
+    <p>
+      An inflight application for sending a custom message to anyone, anywhere as an email or printed postcard.
+    </p>
+    <h3><a href="http://www.versapay.com">VersaPay</a></h3>
+    <p>
+      A B2B payments platform.
+    </p>
+    <h3><a href="http://github.com/samuelreh/tomatoharvest">Tomato Harvest</a></h3>
+    <p>
+      An open source command line tool for time tracking to harvest.
+    </p>
+    <footer>
+      <a href="http://github.com/samuelreh">Github</a> /
+      <a href="https://www.flickr.com/photos/samuelreh/">Flickr</a> /
+      <a href="https://twitter.com/samuelreh">Twitter</a> / 
+      <a href="http://ca.linkedin.com/in/samreh/">LinkedIn</a>
+    </footer>
+  </body>
 </html>
